@@ -48,6 +48,7 @@ func postUserAction () -> Bool{
 //    let string = (array[0] as AnyObject).toString()
 //    print(string!)
     
+    
     let UUID = UIDevice.current.identifierForVendor?.uuidString  //deviceId
     let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"]  //version
     let platform = "apple-tv"  //platform
